@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+header h1{
+    color: #31A5AC;
+}
+input{
+    border: none;
+    background-color: #DCDCDC;
+}
+.statement-container{
+    background-color: #F8F8F8;
+}
+.input-container, .saving-calculation-container{
+    display: block;
+    margin: 0 auto;
+}
