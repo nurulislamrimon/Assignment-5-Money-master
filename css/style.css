@@ -1,17 +1,17 @@
-body{
-    height: 100vh;
-    overflow: hidden;
-}
+/* heading color */
 header h1{
     color: #31A5AC;
 }
+/* all input border and bg-color */
 input{
     border: none;
     background-color: #DCDCDC;
 }
+/* statement-container color */
 .statement-container{
     background-color: #F8F8F8;
 }
+/* inputs alignment */
 .input-container, .saving-calculation-container{
     display: block;
     margin: 0 auto;
