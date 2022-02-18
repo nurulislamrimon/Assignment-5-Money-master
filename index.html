@@ -50,18 +50,19 @@
                 </div><br>
                 <button id="calculate-button" class="btn btn-primary d-block mx-auto">Calculate</button>
                 <br>
-                <h5 class="text-center">Total Expenses: <span id="total-expense">5500</span></h5>
-                <h5 class="text-center">Balance: <span id="balance">4500</span></h5>
+                <h5 class="text-center">Total Expenses: <span id="total-expense">0</span></h5>
+                <h5 class="text-center">Balance: <span id="balance">0</span></h5>
                 <br>
                 <!-- Expense section completed -->
                 <div class="saving-calculation-container w-75">
-                    <label for="">Save:</label><input class="ms-3 w-25 px-3" id="save-amount-input"
-                        placeholder="percent"><span class="mx-3"> %
-                    </span><button class="btn btn-primary">Save</button>
+                    <label for="">Save:</label>
+                    <input itemid="save-input" class="ms-3 w-25 px-3" id="save-amount-input" placeholder="percent"><span
+                        class="mx-3"> %
+                    </span><button id="save-button" class="btn btn-primary">Save</button>
                 </div>
                 <br>
-                <h5 class="text-center">Saving Amount: 2000</h5>
-                <h5 class="text-center">Remaining Balance: 2500</h5>
+                <h5 class="text-center">Saving Amount: <span id="saving-amount">0</span></h5>
+                <h5 class="text-center">Remaining Balance: <span id="remaining-balance">0</span></h5>
             </div>
         </section>
     </main>
